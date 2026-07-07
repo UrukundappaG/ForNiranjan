@@ -1,0 +1,27 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(npx -y skills add JuliusBrussee/caveman --skill caveman --agent claude-code --global)",
+      "Bash(ls -la \"D:\\\\Uru\\\\AI Adoptation Strategies\" 2>/dev/null | head -30)",
+      "Bash(find \"D:\\\\Uru\\\\ZiplyFiber_SourceCode\\\\Ziply Fiber\\\\.claude\" -type f 2>/dev/null | head -20)",
+      "Bash(curl -s https://raw.githubusercontent.com/addyosmani/agent-skills/main/README.md)",
+      "Bash(curl -s https://api.github.com/repos/addyosmani/agent-skills)",
+      "Bash(pip install *)",
+      "Bash(python3 \"C:\\\\Users\\\\4185\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\C--Users-4185--claude\\\\8fa7c290-7a50-4760-9eab-8562b98bd080\\\\scratchpad\\\\create_ppt.py\")",
+      "Bash(C:\\\\\\\\Users\\\\\\\\4185\\\\\\\\AppData\\\\\\\\Local\\\\\\\\Programs\\\\\\\\Python\\\\\\\\Python312\\\\\\\\python.exe \"C:\\\\\\\\Users\\\\\\\\4185\\\\\\\\AppData\\\\\\\\Local\\\\\\\\Temp\\\\\\\\claude\\\\\\\\C--Users-4185--claude\\\\\\\\8fa7c290-7a50-4760-9eab-8562b98bd080\\\\\\\\scratchpad\\\\\\\\create_ppt.py\")",
+      "PowerShell(python \"C:\\\\Users\\\\4185\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\C--Users-4185--claude\\\\8fa7c290-7a50-4760-9eab-8562b98bd080\\\\scratchpad\\\\create_ppt.py\")",
+      "Bash(python3 -c ' *)",
+      "PowerShell(Get-Command python, py -ErrorAction SilentlyContinue)",
+      "Bash(powershell -Command \"Get-ChildItem 'D:\\\\Uru\\\\ZiplyFiber\\\\Capex\\\\reports_cod'\")",
+      "PowerShell(copy \"C:\\\\Users\\\\4185\\\\dream-builder\\\\backend\\\\.env.example\" \"C:\\\\Users\\\\4185\\\\dream-builder\\\\backend\\\\.env\")",
+      "PowerShell(head -3)",
+      "PowerShell(Stop-Process -Id 14740 -Force -ErrorAction SilentlyContinue)",
+      "PowerShell(cd \"C:\\\\Users\\\\4185\\\\dream-builder\\\\backend\" ; Start-Process -FilePath \".\\\\venv\\\\Scripts\\\\python.exe\" -ArgumentList \"main.py\" -WindowStyle Hidden ; Start-Sleep -Seconds 3 ; $r = Invoke-WebRequest -Uri \"http://localhost:8000/health\" -UseBasicParsing -TimeoutSec 5 -ErrorAction SilentlyContinue ; if \\($r\\) { \"Backend UP: $\\($r.Content\\)\" } else { \"Backend not responding yet\" })",
+      "PowerShell(cd \"C:\\\\Users\\\\4185\\\\dream-builder\\\\backend\" ; Start-Process -FilePath \".\\\\venv\\\\Scripts\\\\uvicorn.exe\" -ArgumentList \"main:app\", \"--host\", \"0.0.0.0\", \"--port\", \"8000\" -WindowStyle Hidden ; Start-Sleep -Seconds 4 ; try { $r = Invoke-WebRequest -Uri \"http://localhost:8000/\" -UseBasicParsing -TimeoutSec 5 ; \"Backend UP: $\\($r.StatusCode\\)\" } catch { \"Error: $_\" })",
+      "PowerShell(cd \"C:\\\\Users\\\\4185\\\\dream-builder\\\\backend\" ; Start-Process -FilePath \".\\\\venv\\\\Scripts\\\\uvicorn.exe\" -ArgumentList \"main:app\",\"--host\",\"0.0.0.0\",\"--port\",\"8000\" -WindowStyle Hidden ; Start-Sleep -Seconds 4 ; try { \\(Invoke-WebRequest -Uri \"http://localhost:8000/\" -UseBasicParsing -TimeoutSec 5\\).Content } catch { \"Not up yet: $_\" })",
+      "PowerShell(Start-Sleep -Seconds 3 ; cd \"C:\\\\Users\\\\4185\\\\dream-builder\\\\backend\" ; Start-Process -FilePath \".\\\\venv\\\\Scripts\\\\python.exe\" -ArgumentList \"-m\",\"uvicorn\",\"main:app\",\"--host\",\"0.0.0.0\",\"--port\",\"8000\" -WindowStyle Hidden ; Start-Sleep -Seconds 5 ; try { \\(Invoke-WebRequest \"http://localhost:8000/\" -UseBasicParsing -TimeoutSec 5\\).Content } catch { \"Not up: $_\" })",
+      "PowerShell($r = Invoke-RestMethod -Uri \"http://localhost:8000/auth/register\" -Method POST -Body '{\"email\":\"demo@dreambuilder.com\",\"full_name\":\"Raj Kumar\",\"password\":\"demo1234\"}' -ContentType \"application/json\" ; \"Token: $\\($r.access_token.Substring\\(0,20\\)\\)...\" ; \"User: $\\($r.user.full_name\\) \\(id=$\\($r.user.id\\)\\)\")",
+      "PowerShell(try { \\(Invoke-WebRequest \"http://localhost:8000/\" -UseBasicParsing -TimeoutSec 5\\).Content } catch { \"Down\" })"
+    ]
+  }
+}
